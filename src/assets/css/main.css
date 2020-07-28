@@ -1,3 +1,6 @@
 :root{
    --bgColor:#e5017d;
 }
+.text-center{
+  text-align: center;
+}
