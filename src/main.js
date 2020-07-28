@@ -3,9 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import './assets/css/normalize.css'
 Vue.config.productionTip = false
 
+//按需引入
+import {Button,Row,Col} from "vant";
+Vue.use(Button).use(Row).use(Col);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
