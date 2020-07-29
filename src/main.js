@@ -9,8 +9,16 @@ import '../static/iconfont/icon.css'
 Vue.config.productionTip = false
 
 //按需引入
-import {Button,Row,Col,Swipe,SwipeItem} from "vant";
-Vue.use(Button).use(Row).use(Col).use(Swipe).use(SwipeItem);
+
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+
+// require styles
+import 'swiper/dist/css/swiper.css'
+
+Vue.use(VueAwesomeSwiper)
+import {Button,Row,Col,Swipe,SwipeItem,Lazyload} from "vant";
+Vue.use(Button).use(Row).use(Col).use(Swipe).use(SwipeItem)
+  .use(Lazyload).use(VueAwesomeSwiper);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
