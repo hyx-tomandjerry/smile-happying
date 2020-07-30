@@ -4,10 +4,7 @@
     "advertesPicture": {
       "PICTURE_ADDRESS": "http://images.baixingliangfan.cn/advertesPicture/20180404/20180404085441_850.gif"
     },
-    "floor3": [{
-      "goodsId": "ae4e71807a91460792670b657fa3ed3a",
-      "image": "http://images.baixingliangfan.cn/homeFloor/20180407/20180407181423_15.jpg"
-    }, {
+    "floor3": [ {
       "goodsId": "2a398a5048074fc3b36bc8026bf9dc65",
       "image": "http://images.baixingliangfan.cn/homeFloor/20180407/20180407181216_8263.jpg"
     }, {
@@ -20,10 +17,7 @@
       "goodsId": "98922617593e44c9a5880329a4cf0fd0",
       "image": "http://images.baixingliangfan.cn/homeFloor/20180407/20180407181348_4054.jpg"
     }],
-    "floor2": [{
-      "goodsId": "d0fabe0c966043cb8313fa55de9c555b",
-      "image": "http://images.baixingliangfan.cn/homeFloor/20180407/20180407180547_3253.jpg"
-    }, {
+    "floor2": [ {
       "goodsId": "36360da2ec084316a100c2df1c714e37",
       "image": "http://images.baixingliangfan.cn/homeFloor/20180407/20180407180631_4071.jpg"
     }, {

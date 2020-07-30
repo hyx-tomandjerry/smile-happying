@@ -60,8 +60,51 @@
   </script>
 ````
 
-配置路由
-  
+使用图片要记得使用图片懒加载
+
+使用vue-awesome-swiper
+
+1）安装
+  npm install swiper vue-awesome-swiper --save
+
+2)使用
+
+    全局引入
+    
+     main.js中
+     
+    import Vue from 'vue' 
+    import VueAwesomeSwiper from 'vue-awesome-swiper';
+    import 'swiper/dist/css/swiper.css';
+    Vue.use(VueAwesomeSwiper)
+      
+    局部引入
+     
+     组件中
+     
+     import {Swiper,SwiperSlide,directive} from 'vue-awesome-swiper';
+     import 'swiper/dist/css/swiper.css'
+     export default{
+      components:{Swiper,SwiperSlide},
+      directives:{swiper:directive}
+     }
+ 
+ 
+ 
+ 项目中使用KOA
+ 
+    1)在根目录下新建service文件夹
+        cd service 
+        npm init -y
+        npm install --save koa
+        
+        
+    2)安装mongoDB数据库
+        mongod --dbpath=D:\smile_data
+        mongod 
+        重新打开一个cmd  输入mongo
+    3)  mongose安装
+         npm install --save mongoose 
 
 
 
